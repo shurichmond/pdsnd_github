@@ -317,8 +317,8 @@ def main():
      ride_duration, common_trip,
      stations_freq, bike_users, birth_years, gender_data]
 
-    for x in stats_funcs_list:	# displays processing time for each function block
-        process(x, df)
+    for stat in stats_funcs_list:	# displays processing time for each function block
+        process(stat, df)
 
     # Restarting option
     restart = input("\n * Would you like to do it again and perform another analysis? Type \'yes\' or \'no\'.\n")
