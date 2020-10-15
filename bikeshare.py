@@ -141,7 +141,7 @@ def time_filters(df, time, month, week_day, md):
         month = months.index(month) + 1
         df = df[df['month'] == month]
 
-    #Filter by day of week
+    #Filter week day
     if time == 'day_of_week':
         days = ['Monday', 'Tuesday',
         'Wednesday', 'Thursday',
