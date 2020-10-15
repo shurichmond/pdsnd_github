@@ -13,4 +13,4 @@ This project makes use of python to analyze bikesharing datasets as well as git 
 - washington.csv
 
 ## Credits
-Credits to Udacity
+Credits to the Udacity Community
